@@ -1,6 +1,6 @@
 const num1 = document.getElementById("num1") as HTMLInputElement; //tipo de um input html 
 const num2 = document.getElementById("num2") as HTMLInputElement;
-const button = document.getElementById("button") as HTMLInputElement;
+const button = document.getElementById("button")!;
 
 function sum(a:number , b:number ) { //tipando o tipo number para os 2 parametros
   return a + b;
